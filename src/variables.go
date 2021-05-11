@@ -7,14 +7,17 @@ import (
 
 func main() {
 
+	//variable declaration
 	var name = "Rakib"
 
+	//short hand declaration
 	age := 30
 
+	//variable declaration with type
 	var phone string = "0180000111203"
 
+	// declare constant variable
 	const COUNTRY = "Bangladesh"
-
 	const INDIA string = "India"
 
 	println("name: ", name, " Age: ", age, " Phone: ", phone)
@@ -22,11 +25,12 @@ func main() {
 	println("Age Type: ", reflect.TypeOf(age))
 	println("Phone Type: ", reflect.TypeOf(phone))
 
-	var preDeclear string
-	var preDeclear1 string
+	//pre define variables where must define type
+	var preDeclare string
+	var preDeclare1 string
 
-	preDeclear = "preDeclear word"
-	preDeclear1 = "preDeclear1 word"
+	preDeclare = "preDeclare word"
+	preDeclare1 = "preDeclare1 word"
 
-	fmt.Println(preDeclear, preDeclear1)
+	fmt.Println(preDeclare, preDeclare1)
 }
